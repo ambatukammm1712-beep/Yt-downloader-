@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "yt_downloader.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "yt_downloader.py"
+    }
+  ]
+}
