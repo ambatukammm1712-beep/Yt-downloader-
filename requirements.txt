@@ -1,5 +1,6 @@
 Flask==3.1.2
 flask-cors==6.0.2
-flask-limiter==3.5.0
 yt-dlp==2026.2.4
+Werkzeug==3.1.5
+blinker==1.9.0
 gunicorn==21.2.0
